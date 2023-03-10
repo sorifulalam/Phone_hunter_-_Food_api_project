@@ -22,7 +22,7 @@ const displayMeals = meals => {
     <img src="${meal.strMealThumb}" class="card-img-top" alt="...">
     <div class="card-body ">
       <h5 class="card-title">${meal.strMeal}</h5>
-      <p class="card-text">${meal.strInstructions}</p>
+      <p class="card-text ">${meal.strInstructions}</p>
 
       <!-- Button trigger modal -->
       <button type="button" onclick="loadmealdetailes(${meal.idMeal})" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mealDetailsmodal">
